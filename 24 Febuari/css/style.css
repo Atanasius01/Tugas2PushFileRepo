@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.body {
+  font-family: sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(245, 251, 253);
+  padding: 20px;
+}
+
+.navbar-nav ul li {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0 30px 0 30px;
+  font-weight: bold;
+  margin-top: 7px;
+}
+.navbar-nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 12pt;
+}
+
+.navbar-nav a:hover {
+  color: rgb(45, 126, 153);
+}
+
+.navbar-button button {
+  padding: 10px;
+  border: transparent;
+  border-radius: 5px;
+  background-color: rgb(63, 165, 199);
+  font-weight: bold;
+  color: white;
+  margin-right: 5rem;
+  margin-left: -5rem;
+  cursor: pointer;
+}
+
+/* Header */
+
+.header {
+  background-image: url("../img/market.jpg");
+  height: 85vh;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+
+.header h2 {
+  color: aliceblue;
+  padding: 10rem 0 3rem 0;
+  font-size: 30pt;
+  letter-spacing: 5px;
+  font-family: "Franklin Gothic Medium";
+}
+.header p {
+  color: aliceblue;
+  padding-bottom: 39px;
+  font-size: 16pt;
+}
+
+form {
+  margin: 10px;
+}
+.header input {
+  display: inline-block;
+  padding: 13px 90px;
+  border-radius: 20px;
+  border: 1px solid rgb(63, 165, 199);
+  box-shadow: 0 0 5px #000, 0 0 15px #858585;
+}
+
+.header button {
+  padding: 13px 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(63, 165, 199);
+  font-weight: bold;
+  color: white;
+  letter-spacing: 2px;
+  box-shadow: 0 0 5px #000, 0 0 15px #858585;
+  cursor: pointer;
+}
+
+/* Content */
+section {
+  height: 100vh;
+}
+
+section h3 {
+  text-align: center;
+  padding-top: 3.6rem;
+  padding-bottom: 5rem;
+  font-size: 20pt;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: "Franklin Gothic Medium";
+}
+.content-produk {
+  display: flex;
+  justify-content: center;
+}
+
+.grup-produk img {
+  width: 250px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+fieldset {
+  background-color: white;
+  border-radius: 10px;
+  border: 5px groove rgb(63, 165, 199);
+  box-shadow: 7px 7px rgb(100, 100, 100);
+}
+
+.grup-produk {
+  padding: 2.8rem;
+}
+.grup-produk h4 {
+  padding-bottom: 2.1rem;
+  font-size: 18pt;
+  text-align: left;
+  padding-left: 10px;
+}
+.grup-produk p {
+  font-size: 10ptpt;
+  padding-left: 10px;
+}
+.grup-produk button {
+  padding: 0.6rem 5rem;
+  margin: 2rem 0;
+  border-radius: 15px;
+  border: 3px solid rgb(63, 165, 199);
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12pt;
+  margin-left: 14px;
+}
+
+.grup-produk button:hover {
+  background-color: rgb(63, 165, 199);
+  color: white;
+}
+
+#produk {
+  background-color: aliceblue;
+}
+#lokasi {
+  background-color: #918c8c;
+}
+
+.grup-location {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(245, 251, 253);
+}
+
+.contact-info {
+  padding-top: 7rem;
+}
+
+.contact-info h4 {
+  font-size: 20pt;
+  padding-bottom: 10px;
+}
+
+.no-contact {
+  color: black;
+  text-align: left;
+  padding-top: 20px;
+  font-size: 15pt;
+}
+.no-contact h4 {
+  font-size: 20pt;
+}
+
+iframe {
+  border-radius: 20px;
+}
+
+.no-contact input {
+  padding: 15px 50px;
+  border-radius: 20px;
+  border: 4px solid rgb(63, 165, 199);
+  margin-top: 10px;
+  background-color: transparent;
+  font-size: 14pt;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.no-contact input:hover {
+  background-color: rgb(45, 126, 153);
+  color: white;
+}
+
+/* Sidebar */
+.side-bar {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+}
+
+.side-bar-nav {
+  position: relative;
+}
+
+.side-bar-nav:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.side-bar-link {
+  color: black;
+  text-decoration: none;
+  font-size: 15pt;
+  font-family: "Montserrat", sans-serif;
+}
+
+.side-bar-link .fa-solid {
+  color: rgb(63, 165, 199);
+}
+
+.side-bar-link i {
+  width: 70px;
+  height: 70px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  transition: all 0.3s;
+}
+
+.side-bar-nav:hover i {
+  transform: scale(1.1);
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.side-bar-link .title-sb {
+  position: absolute;
+  background-color: #fff;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 65px;
+  line-height: 70px;
+  transform: translateX(-100%);
+  z-index: -1;
+  transition: all 0.3s;
+}
+.side-bar-nav:hover .title-sb {
+  transform: translateX(0);
+}
+
+div .contact-info {
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  height: 30px;
+  background-color: #191825;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 50px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  margin: 0 20px;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: rgb(63, 165, 199);
+}
+
+footer h2 {
+  color: white;
+}

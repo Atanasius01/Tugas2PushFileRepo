@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      font-family: sans-serif;
+      box-sizing: border-box;
+    }
+    /* style Nav */
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #191825;
+      padding: 25px 50px;
+      text-decoration: none;
+    }
+
+    nav .logo {
+      color: rgb(11, 245, 245);
+      cursor: pointer;
+    }
+    .navbar h2 {
+      font-size: 30px;
+    }
+    .navbar h2 span {
+      color: rgb(252, 0, 143);
+    }
+    .navbar-nav ul {
+      margin-right: 7rem;
+    }
+    .navbar-nav ul li {
+      list-style: none;
+      display: inline-block;
+      cursor: pointer;
+      padding: 0 30px 0 30px;
+    }
+    .navbar-nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    .navbar-nav ul li a:hover {
+      color: rgb(252, 0, 143);
+    }
+
+    /* style content*/
+    .content {
+      background-image: url(img/bgfix.jpg);
+      height: 88vh;
+      background-position: center;
+      background-size: cover;
+      color: aliceblue;
+      padding: 13rem 5rem;
+    }
+
+    .content h1{
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 10px;
+      margin-top: 20px;
+      border: 2px solid white;
+      border-radius: 10px;
+      background-color: rgb(252, 0, 143);
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: rgb(11, 245, 245);
+      color: black;
+    }
+    /* Footer */
+        footer {
+          background-color: black;
+          color: white;
+          display: flex;
+          justify-content: space-between;
+          padding: 50px 70px;
+          width: 100%;
+          height: 20vh;
+        }
+
+        footer a {
+          height: 88vh;
+          text-decoration:none;
+          color: white;
+          margin: 0 20px;
+
+        }
+
+        footer a:hover {
+          color: rgb(252, 0, 143);
+        }
+
+        footer h2{
+          color: rgb(11, 245, 245);
+        }
+        footer h2 span{
+          color: rgb(252, 0, 143);
+    }
+/* About */
+    .secon_content{
+      background-color: #101010;
+      color: white;
+      width: 100%;
+      height: 50vh;
+    }
+
+    .secon_content .title{
+      text-align: center;
+      padding: 40px 0 60px 0;
+      color: white;
+      text-decoration: underline;
+
+    }
+    .secon_content h3{
+      margin-bottom: 10px;
+    }
+    .secon_content h3 a{
+      color:rgb(11, 245, 245);
+      padding-bottom: 10px;
+      text-decoration: none;
+    }
+    .content-grup{
+      display: flex;
+      justify-content: space-between;
+      padding: 0 40px;
+      text-align: center;
+    }
+    /* Contact */
+    .kontak{
+      background-color: wheat;
+      color: black;
+      width: 100%;
+      height: 50vh;
+    }
+    .kontak h2{
+      text-align: center;
+      padding-top: 30px;
+      text-decoration: underline;
+    }
+    .kontak img{
+      width: 200px;
+      height: 200px;
+      border: 1px solid wheat;
+      border-radius: 10px;
+      margin-top: 50px;
+    }
+.grup_kontak{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding:0 400px;
+    }
+
+    .info_kontak h3{
+      color:black;
+      margin-bottom: 20px;
+      margin-top: 40px;
+      text-decoration: underline;
+    }
+
+    .info_kontak p{
+      padding: 5px;
+    }
+  </style>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <h2 class="logo">Belajar<span>Coding</span></h2>
+        <div class="navbar-nav">
+          <ul>
+            <li><a href=""> Home</a></li>
+            <li><a href=""> About</a></li>
+            <li><a href=""> Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+    <!-- Home -->
+    <div class="content">
+      <h1>Belajar Coding Seru</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing veritatis. <br />
+        Consequatur facilis et excepturi, ducimus quos dolor vel <br />
+        eaque blanditiis vel unde veritatis porro quos consectetur.
+      </p>
+      <button>Mulai Belajar</button>
+    </div>
+    <!-- About -->
+    <div class="secon_content">
+      <div class="title"><h2>About</h2></div>
+      <div class="content-grup">
+        <div class="content_1">
+          <h3><a href="https://www.bing.com/search?q=full+stack+developer&cvid=586523ee21304790b6c98456fdf33301&aqs=edge.0.0l2j69i57j0l6.5207j0j1&pglt=41&FORM=ANSPA1&PC=ACTS" target="_blank">Full Stack Web Dev</a></h3>
+          <p>Lorem ipsum dolor sit, amet  <br>adipisicing elit. Minus sed itaque , <br>consectetur obcaecati natus ipsum. <br>consectetur obcaecati natus ipsum.</p>
+        </div>
+        <div class="content_2">
+          <h3><a href="https://www.bing.com/search?q=full+stack+developer&cvid=586523ee21304790b6c98456fdf33301&aqs=edge.0.0l2j69i57j0l6.5207j0j1&pglt=41&FORM=ANSPA1&PC=ACTS" target="_blank">Front End</a></h3>
+          <p>Lorem ipsum dolor sit, amet  <br>adipisicing elit. Minus sed itaque , <br>consectetur obcaecati natus ipsum. <br>consectetur obcaecati natus ipsum.</p>
+        </div>
+        <div class="content_2">
+          <h3><a href="https://www.bing.com/search?q=full+stack+developer&cvid=586523ee21304790b6c98456fdf33301&aqs=edge.0.0l2j69i57j0l6.5207j0j1&pglt=41&FORM=ANSPA1&PC=ACTS" target="_blank">Back End</a></h3>
+          <p>Lorem ipsum dolor sit, amet  <br>adipisicing elit. Minus sed itaque , <br>consectetur obcaecati natus ipsum. <br>consectetur obcaecati natus ipsum.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="kontak">
+      <div>
+        <h2>Contact</h2>
+      </div>
+      <div class="grup_kontak">
+        <div class="gambar_kontak">
+          <img src="img/Atan.jpg" alt="">
+        </div>
+        <div class="info_kontak">
+          <h3>Contact Information</h2>
+          <p>Atanasius Jales Putra Bagaskara</p>
+          <p>Full Stack Web Dev</p>
+          <p>atanasius256@gmail.com</p>
+          <p>Univesitas Pendidikan Indonesia</p>
+      </div>
+    </div>
+    </div>
+    <!-- Footer -->
+      <div><footer>
+        <h2>Belajar<span>Coding</span></h2>
+        <div class="footer-kontak">
+          <a href="https://www.instagram.com/atanasius_/">Instagram</a>
+          <a href="https://www.youtube.com/">Youtube</a>
+            <a href="https://www.linkedin.com/in/atanasius-jales-putra-bagaskara-052a17229/">Linkedin</a>
+          </ul>
+        </div>
+        <div class="copyrirght">
+          <h4>Design by &copy; Atanasius</h4>
+        </div>
+      </footer>
+  </div>
+  </body>
+</html>

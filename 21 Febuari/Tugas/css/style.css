@@ -1,0 +1,14 @@
+img {
+  border-radius: 100%;
+  border: 2px solid white;
+  width: 150px;
+  height: 150px;
+}
+
+table {
+  margin-top: 2rem;
+}
+
+audio {
+  margin-top: 20px;
+}
